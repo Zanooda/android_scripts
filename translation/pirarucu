@@ -13,26 +13,32 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Korean
+# Brazilian Portuguese
 
-## THIS WHOLE FILE NEEDS TO BE TRANSLATED! ##
+## V1.5 Translated by: Doublepranks ##
 
 ## Common
 export KITCHENTITLE=$( echo "Swordrune10's Android Kitchen!" )
 export KITCHENUNDERLINE=$( echo "==============================" )
-export MENUGOBACK=$( echo "Go Back" )
-export NOTPROPERSELECTION=$( echo "You did not make a proper selection, try again!" )
-export ENTERTOCONTINUE=$( echo "Press Enter to continue: " )
-export MAINMENURETURN=$( echo "Returning to Main Menu, Press Enter to continue: " )
+## NEEDS TRANSLATION! 
+export KITCHENMENUWHICH=$( echo "Which one would you like to do?: " )
+## NEEDS TRANSLATION! 
+export MENUGOBACK=$( echo "Voltar" )
+export NOTPROPERSELECTION=$( echo "Comando invalido, tente novamente!" )
+export ENTERTOCONTINUE=$( echo "Pressione enter para continuar: " )
+export MAINMENURETURN=$( echo "Retornando ao menu principal, pressione enter para continuar: " )
+## NEEDS TRANSLATION! 
 export ABORTMESSAGE=$( echo "Aborting.." )
-export COMPLETEDMESSAGE=$( echo "Finished!" )
-export QUESTIONYESNO=$( echo "yes/no? " )
-export ANSWERYES=$( echo "yes" )
-export ANSWERY=$( echo "y" )
-export ANSWERNO=$( echo "no" )
+## NEEDS TRANSLATION!
+export COMPLETEDMESSAGE=$( echo "Concluido!" )
+export QUESTIONYESNO=$( echo "sim/nao? " )
+export ANSWERYES=$( echo "Sim" )
+export ANSWERY=$( echo "s" )
+export ANSWERNO=$( echo "Nao" )
 export ANSWERN=$( echo "n" )
 
 ## Macosxinit
+## NEEDS TRANSLATION!
 export MACOSXINITRUN=$( echo "You are running Mac OS X!" )
 export MACOSXINITCANTFINDDMG=$( echo "We can't find the android image to mount, this is needed to build on mac os x
 If you already have one made please put it in its proper place with its proper title
@@ -49,8 +55,10 @@ export MACOSXINITFOUNDDMG=$( echo "Found your android.dmg, mounting.." )
 export MACOSXINITCANTFINDKITCHEN=$( echo "We can't find the rom kitchen in /Volumes/android
 
 Would you like to make install rom kitchen in /Volumes/android?" )
+## NEEDS TRANSLATION!
 
 ## Errors
+## NEEDS TRANSLATION!
 export ERRORHEADER=$( echo "An Error Has Occurred!
 ======================" )
 export ERRORSIDEEFFECTS=$( echo "Side effects may include failure to build properly and lack of support
@@ -79,6 +87,7 @@ Linux Mint (General Support)
 Arch Linux (General Support)
 Fedora (General Support)
 Mac OS X (Semi-General Support)" )
+## NEEDS TRANSLATION!
 
 ## Repos
 export REPOSKITCHEN=$( echo "Kitchen app" )
@@ -94,6 +103,7 @@ export REPOSPACMAN=$( echo "PAC-man" )
 export REPOSPARA=$( echo "ParanoidAndroid" )
 
 ## Devices
+## NEEDS TRANSLATION!
 export NEXUS4=$( echo "GSM Nexus 4" )
 export NEXUS5=$( echo "LTE Nexus 5" )
 export GSMGNEXUS=$( echo "GSM Galaxy Nexus" )
@@ -115,35 +125,37 @@ export WIFIXOOM=$( echo "Wifi Xoom Tablet" )
 export VZWXOOM=$( echo "Verizon Xoom Tablet" )
 export ALLXOOM=$( echo "All Xoom Tablets" )
 export ALLNEXUS=$( echo "All Nexus Devices" )
+## NEEDS TRANSLATION!
 
 ## Scriptmakir
+## NEEDS TRANSLATION!
 export SCRIPTMAKIRREDEEMER=$( echo "Redeemer is running!" )
 export SCRIPTMAKIRRMKITCHEN=$( echo "Removing Kitchen" )
 export SCRIPTMAKIRSETUPKITCHEN=$( echo "Settng Up Kitchen" )
 export SCRIPTMAKIRDESTROYER=$( echo "Destroyer is running!" )
 export SCRIPTMAKIRDESTROYEROFWORLDS=$( echo "Destroyer of Worlds is running!" )
 export SCRIPTMAKIRRMREPO=$( echo "Removing Repository folder" )
+## NEEDS TRANSLATION!
 
 ## Kitchen
-export KITCHENMAINMENU=$( echo "Main Menu:" )
-export KITCHENMENU1=$( echo "Setup/Update Kitchen" )
-export KITCHENMENU2=$( echo "Configure Kitchen" )
-export KITCHENMENU3=$( echo "Run Kitchen" )
-export KITCHENMENU4=$( echo "Fix Kitchen" )
-export KITCHENMENU5=$( echo "Auto Build Kitchen" )
-export KITCHENMENU6=$( echo "Exit" )
-export KITCHENMENUWHICH=$( echo "Which one would you like to do?" )
-export KITCHENTHANKS=$( echo "Thank you for using Swordrune10's Kitchen! Good bye.." )
-export KITCHENBORED=$( echo "You seem bored.. wanna watch a movie?" )
-export KITCHENTOUGH=$( echo "tough!" )
+export KITCHENMAINMENU=$( echo "Menu principal:" )
+export KITCHENMENU1=$( echo "Abrir novo/Atualizar Kitchen" )
+export KITCHENMENU2=$( echo "Configurar Kitchen" )
+export KITCHENMENU3=$( echo "Iniciar Kitchen" )
+export KITCHENMENU4=$( echo "Reparar Kitchen" )
+export KITCHENMENU5=$( echo "Auto criar Kitchen" )
+export KITCHENMENU6=$( echo "Sair" )
+export KITCHENTHANKS=$( echo "Volte sempre ;-)" )
+export KITCHENBORED=$( echo "Voce parece intediado.. quer assistir um filme?" )
+export KITCHENTOUGH=$( echo "ops! Tarde demais..." )
 
 ## Reposync
 # Usage and Flags
-export REPOSYNCUSAGE=$( echo "repo -- program to initialize/update android repos" )
-export REPOSYNCFLAGD=$( echo "delete the appropriate folder and then exit program" )
+export REPOSYNCUSAGE=$( echo "repo -- Usado para iniciar/atualizar um repositorio" )
+export REPOSYNCFLAGD=$( echo "deleta o diretorio alvo e encerra o programa" )
 export REPOSYNCFLAGH=$( echo "show this help text" )
 export REPOSYNCFLAGP=$( echo "purge folder, reinit, and then update" )
-export REPOSYNCFLAGU=$( echo "update this particular repo" )
+export REPOSYNCFLAGU=$( echo "atualiza o repositorio selecionado repo" )
 export REPOSYNCUPDATE1=$( echo "Update $REPOSKITCHEN" )
 export REPOSYNCUPDATE2=$( echo "Update $REPOSAOKP" )
 export REPOSYNCUPDATE3=$( echo "Update $REPOSAOSP43" )
@@ -155,73 +167,75 @@ export REPOSYNCUPDATE8=$( echo "Update $REPOSEV" )
 export REPOSYNCUPDATE9=$( echo "Update $REPOSOMNI" )
 export REPOSYNCUPDATE10=$( echo "Update $REPOSPACMAN" )
 export REPOSYNCUPDATE11=$( echo "Update $REPOSPARA" )
-export REPOSYNCUPDATE12=$( echo "Update all available repos" )
-export REPOSYNCUPDATE13=$( echo "Update all the repos" )
-export REPOSYNCUSAGEEXAMP=$( echo "Example: reposync -u cm-10.2" )
-export REPOSYNCUSAGELIST1=$( echo "typing \"reposync -u list\" will give" )
-export REPOSYNCUSAGELIST2=$( echo "you the options list again" )
+export REPOSYNCUPDATE12=$( echo "Atualiza todos os repositorios disponiveis" )
+export REPOSYNCUPDATE13=$( echo "Atualiza todos os repositorios" )
+export REPOSYNCUSAGEEXAMP=$( echo "Exemplo: reposync -u cm-10.2" )
+export REPOSYNCUSAGELIST1=$( echo "Digitar \"reposync -u list\" mostra" )
+export REPOSYNCUSAGELIST2=$( echo "o menu de opção" )
 
 # Menu
-export REPOSYNCMENUWHAT=$( echo "What are we updating?" )
-export REPOSYNCMENUINIT=$( echo "If repo isn't initialized, it will be on update" )
-export REPOSYNCMENU1=$( echo "Install the repo command" )
-export REPOSYNCMENU2=$( echo "Setup the build environment" )
-export REPOSYNCMENU3=$( echo "Update the $REPOSKITCHEN repository" )
-export REPOSYNCMENU4=$( echo "Update the $REPOSAOKP repository" )
-export REPOSYNCMENU5=$( echo "Update the $REPOSAOSP43 repository" )
-export REPOSYNCMENU6=$( echo "Update the $REPOSAOSP repository" )
-export REPOSYNCMENU7=$( echo "Update the $REPOSCARBON repository" )
-export REPOSYNCMENU8=$( echo "Update the $REPOSCM10 repository" )
-export REPOSYNCMENU9=$( echo "Update the $REPOSCM repository" )
-export REPOSYNCMENU10=$( echo "Update the $REPOSEV repository" )
-export REPOSYNCMENU11=$( echo "Update the $REPOSOMNI repository" )
-export REPOSYNCMENU12=$( echo "Update the $REPOSPACMAN repository" )
-export REPOSYNCMENU13=$( echo "Update the $REPOSPARA repository" )
-export REPOSYNCMENU14=$( echo "Update all available repositories" )
-export REPOSYNCMENU15=$( echo "Update all the repos!" )
-export REPOSYNCMENU16=$( echo "Update/add otherrepo" )
+export REPOSYNCMENUWHAT=$( echo "O que vamos atualizar?" )
+export REPOSYNCMENUINIT=$( echo "repo sera iniciado durante a atualizacao" )
+export REPOSYNCMENU1=$( echo "instalar software repo" )
+export REPOSYNCMENU2=$( echo "iniciar ambiente de criacao" )
+export REPOSYNCMENU3=$( echo "Atualizar $REPOSKITCHEN" )
+export REPOSYNCMENU4=$( echo "Atualizar $REPOSAOKP" )
+export REPOSYNCMENU5=$( echo "Atualizar $REPOSAOSP43" )
+export REPOSYNCMENU6=$( echo "Atualizar $REPOSAOSP" )
+export REPOSYNCMENU7=$( echo "Atualizar $REPOSCARBON" )
+export REPOSYNCMENU8=$( echo "Atualizar $REPOSCM10" )
+export REPOSYNCMENU9=$( echo "Atualizar $REPOSCM" )
+export REPOSYNCMENU10=$( echo "Atualizar $REPOSEV" )
+export REPOSYNCMENU11=$( echo "Atualizar $REPOSOMNI" )
+export REPOSYNCMENU12=$( echo "Atualizar $REPOSPACMAN" )
+export REPOSYNCMENU13=$( echo "Atualizar $REPOSPARA" )
+export REPOSYNCMENU14=$( echo "Atualizar repositorios disponiveis" )
+export REPOSYNCMENU15=$( echo "Atualizar todos!" )
+export REPOSYNCMENU16=$( echo "Atualizar/adicionar outro" )
 
 # Sync and Init
-export REPOSYNCNOTINITSKIP=$( echo "not initialized, skipping" )
-export REPOSYNCUPDATING=$( echo "Updating" )
+export REPOSYNCNOTINITSKIP=$( echo "Nao iciado, ignorando" )
+export REPOSYNCUPDATING=$( echo "Atualizando" )
 export REPOSYNCBLAHSMANIFEST=$( echo "'s manifest" )
-export REPOSYNCNOTINITYET=$( echo "not initialized, initializing now" )
-export REPOSYNCNOTINITWANTTO=$( echo "not initialized, do you want to initialize it?" )
-export REPOSYNCINIT=$( echo "initializing" )
-export REPOSYNCNOTINIT=$( echo "wasn't initialized" )
-export REPOSYNCREPO=$( echo "repository" )
-export REPOSYNCREPOALREADY=$( echo "repo command is already installed" )
-export REPOSYNCREPOINSTALL=$( echo "Installing the repo command" )
-export REPOSYNCCOMPLETE=$( echo "Update Complete!" )
+export REPOSYNCNOTINITYET=$( echo "Nao inicializado, iniciando" )
+export REPOSYNCNOTINITWANTTO=$( echo "Nao inicializado, iniciar?" )
+export REPOSYNCINIT=$( echo "inicializando" )
+export REPOSYNCNOTINIT=$( echo "Nao estava inicializado" )
+export REPOSYNCREPO=$( echo "repositorio" )
+export REPOSYNCREPOALREADY=$( echo "software repo ja existente" )
+export REPOSYNCREPOINSTALL=$( echo "instalando o software repo" )
+export REPOSYNCCOMPLETE=$( echo "Atualizacao concluida!" )
 
 # Otherrepo Sync and Init
-export REPOSYNCADDOR=$( echo "Are we adding or updating otherrepo?" )
-export REPOSYNCOTHERMENU1=$( echo "Add to custom repo folder" )
-export REPOSYNCOTHERMENU2=$( echo "Update all the custom repos" )
-export REPOSYNCOTHERREPONAME=$( echo "What is the repo's name?" )
-export REPOSYNCOTHERREPOSHORTNAME=$( echo "What is a short name for this repo? Example: Android Open Source Project = aosp" )
-export REPOSYNCOTHERREPOURL=$( echo "What is the url to the repo's manifest?" )
-export REPOSYNCOTHERREPOBRANCH=$( echo "What is the branch the repo's manifest you want to use?" )
+export REPOSYNCADDOR=$( echo "Adicionar/atualizar outro repositorio?" )
+export REPOSYNCOTHERMENU1=$( echo "Adicionar a um diretorio pessoal" )
+export REPOSYNCOTHERMENU2=$( echo "Atualizar todos os repositorios pessoais" )
+export REPOSYNCOTHERREPONAME=$( echo "Qual o nome do repositorio?" )
+export REPOSYNCOTHERREPOSHORTNAME=$( echo "Adicione um codenome ao repositorio? Exemplo: Android Open Source Project = aosp" )
+export REPOSYNCOTHERREPOURL=$( echo "URL do arquivo manifest?" )
+export REPOSYNCOTHERREPOBRANCH=$( echo "A qual branch o repositorio deve ser atrelado?" )
+
+## EVERYTHING BELOW NEEDS TRANSLATION!
 
 ## Environmentsetup
-export ENVIRONMENTSETUPINIT=$( echo "Initilizing the build environment" )
-export ENVIRONMENTSETUPOS=$( echo "Checking what Operating System you are running.." )
-export ENVIRONMENTSETUPINSTALL=$( echo "Installing packages needed, please enter your password" )
-export ENVIRONMENTSETUPDXCODE=$( echo "Is Xcode installed? We recommend version 3.1.4 or newer" )
-export ENVIRONMENTSETUPDMACPORTS=$( echo "Is MacPorts installed?" )
+export ENVIRONMENTSETUPINIT=$( echo "Iniciando embiente de compilacao" )
+export ENVIRONMENTSETUPOS=$( echo "Verificando sistema operacional.." )
+export ENVIRONMENTSETUPINSTALL=$( echo "Instalando pacotes, por favor insira sua senha root." )
+export ENVIRONMENTSETUPDXCODE=$( echo "Ja tem o xcode? versao 3.1.4 ou posterior" )
+export ENVIRONMENTSETUPDMACPORTS=$( echo "Ja tem o MacPorts?" )
 
 # Platform
-export ENVIRONMENTSETUPFEDORA=$( echo "You are running Fedora or RedHat!" )
-export ENVIRONMENTSETUPDEBIAN=$( echo "You are running Debian!" )
-export ENVIRONMENTSETUPULMN=$( echo "You are running Ubuntu, either 10.04, 10.10, or 11.04!" )
-export ENVIRONMENTSETUPUO=$( echo "You are running Ubuntu 11.10!" )
-export ENVIRONMENTSETUPUPQ=$( echo "You are running Ubuntu 12.04 or 12.10!" )
-export ENVIRONMENTSETUPURST=$( echo "You are running Ubuntu 13.04, 13.10, or 14.04!" )
-export ENVIRONMENTSETUPMINT=$( echo "You are running Linux Mint!" )
-export ENVIRONMENTSETUPARCH=$( echo "You are running Arch Linux!" )
-export ENVIRONMENTSETUPDARWIN=$( echo "You are running Mac OS X!" )
+export ENVIRONMENTSETUPFEDORA=$( echo "sistema operacional detectado, Fedora / RedHat!" )
+export ENVIRONMENTSETUPDEBIAN=$( echo "sistema operacional detectado, Debian!" )
+export ENVIRONMENTSETUPULMN=$( echo "sistema operacional detectado, Ubuntu 10.04 / 10.10 / 11.04!" )
+export ENVIRONMENTSETUPUO=$( echo "sistema operacional detectado, Ubuntu 11.10!" )
+export ENVIRONMENTSETUPUPQ=$( echo "sistema operacional detectado, 12.04 / 12.10!" )
+export ENVIRONMENTSETUPURST=$( echo "sistema operacional detectado, Ubuntu 13.04 / 13.10 / 14.04!" )
+export ENVIRONMENTSETUPMINT=$( echo "sistema operacional detectado, Linux Mint!" )
+export ENVIRONMENTSETUPARCH=$( echo "sistema operacional detectado, Arch Linux!" )
+export ENVIRONMENTSETUPDARWIN=$( echo "sistema operacional detectado, Mac OS X!" )
 
-# Java
+# Java # I recommend leaving this section as it is.
 export ENVIRONMENTSETUPFLEXION=$( echo "Installing java will take a while, to do this legally the Kitchen app will use exerpts from flexion.org oab-java script" )
 export ENVIRONMENTSETUPFLEXION1=$( echo " [x] Getting Java SE download page" )
 export ENVIRONMENTSETUPFLEXION2=$( echo " [x] Getting current release download page" )
@@ -229,41 +243,44 @@ export ENVIRONMENTSETUPFLEXION3=$( echo " [x] Getting previous releases download
 export ENVIRONMENTSETUPWEBUPD8=$( echo "Installing java will take a while, to do this legally the Kitchen app will use webupd8's java installer" )
 
 ## Preupdate
-export PREUPDATEAOSP43=$( echo "Updating $REPOSAOSP43's local_manifests folder" )
-export PREUPDATEAOSP=$( echo "Updating $REPOSAOSP's local_manifests folder" )
-export PREUPDATECM10=$( echo "Updating $REPOSCM10's local_manifests folder" )
-export PREUPDATECM=$( echo "Updating $REPOSCM's local_manifests folder" )
-export PREUPDATEOMNI=$( echo "Updating $REPOSOMNI's local_manifests folder" )
+export PREUPDATEAOSP43=$( echo "Atualizando $REPOSAOSP43's local_manifests folder" )
+export PREUPDATEAOSP=$( echo "Atualizando $REPOSAOSP's local_manifests folder" )
+export PREUPDATECM10=$( echo "Atualizando $REPOSCM10's local_manifests folder" )
+export PREUPDATECM=$( echo "Atualizando $REPOSCM's local_manifests folder" )
+export PREUPDATEOMNI=$( echo "Atualizando $REPOSOMNI's local_manifests folder" )
 
 ## Configkitchen
 export CONFIGKITCHENMENUTITLE=$( echo "Kitchen Config Menu" )
-export CONFIGKITCHENMENU1=$( echo "Edit Gitpuller" )
-export CONFIGKITCHENMENU2=$( echo "Edit Romeditor" )
-export CONFIGKITCHENMENU3=$( echo "Create/Edit other repo list" )
-export CONFIGKITCHENOTHERREPO=$( echo "editing custom repos file location" )
-export CONFIGKITCHENOTHERREPONAME=$( echo "editing custom repos name" )
+export CONFIGKITCHENMENU1=$( echo "Editar Gitpuller" )
+export CONFIGKITCHENMENU2=$( echo "Editar Romeditor" )
+export CONFIGKITCHENMENU3=$( echo "Criar/Editar outro repo list" )
+export CONFIGKITCHENOTHERREPO=$( echo "Editando outro repos, arquivo ou local " )
+export CONFIGKITCHENOTHERREPONAME=$( echo "Editando outro repos " )
 
 ## Fixkitchen
-export FIXKITCHENSOMETHINGNOT=$( echo "Something is not working right? What should we do?" )
-export FIXKITCHENPURGE=$( echo "Purge = remove files, download from origin" )
-export FIXKITCHENDELETE=$( echo "Delete = delete it!" )
-export FIXKITCHENMENU1=$( echo "Add a repo to a certain local_manifests folder" )
-export FIXKITCHENMENU2=$( echo "Purge a certain local_manifests folder" )
-export FIXKITCHENMENU3=$( echo "Purge or Delete a certain repository" )
-export FIXKITCHENMENU4=$( echo "Purge or Delete all the repositories" )
-export FIXKITCHENMENU5=$( echo "Purge or Delete the Kitchen app" )
-export FIXKITCHENMENU6=$( echo "Delete the Kitchen app, and its dependencies" )
-export FIXKITCHENMENU7=$( echo "Delete the contents of your computer" )
-export FIXKITCHENMENU8=$( echo "Delete the entire internet" )
-export FIXKITCHENADD=$( echo "Adding repo to otherdevices.xml for" )
-export FIXKITCHENPURGE=$( echo "local_manifests folder was purged" )
-export FIXKITCHENWHICHADD=$( echo "Which repo would you like to add to?" )
-export FIXKITCHENWHICHPURGE=$( echo "Which repo would you like to purge its local_manifests folder?" )
-export FIXKITCHENWHICHREPO=$( echo "Which repo would you like to purge or delete?" )
-export FIXKITCHENPURGEDELETE=$( echo "Purge or Delete?" )
-export FIXKITCHENPURGEDELETEEXIT=$( echo "Purge = remove files, download from origin
-Delete = delete it!
-type exit to go to back" )
+export FIXKITCHENSOMETHINGNOT=$( echo "Algo deu errado! E agora?" )
+export FIXKITCHENPURGE=$( echo "Purge = remover arquivos, baixar de origin" )
+export FIXKITCHENDELETE=$( echo "Delete = deletar?!" )
+export FIXKITCHENMENU1=$( echo "Addicionar arquivo repo a uma pasta local_manifests" )
+export FIXKITCHENMENU2=$( echo "Purge uma pasta local_manifests" )
+export FIXKITCHENMENU3=$( echo "Purge ou deletar um repositorio" )
+export FIXKITCHENMENU4=$( echo "Purge ou deletar todos os repositorios" )
+export FIXKITCHENMENU5=$( echo "Purge or Delete the Kitchen app(Cuidado)" )
+export FIXKITCHENMENU6=$( echo "Delete the Kitchen app, and its dependencies(Cuidado)" )
+export FIXKITCHENMENU7=$( echo "Delete the contents of your computer(Cuidado)" )
+export FIXKITCHENMENU8=$( echo "Delete the entire internet(:o N faz isso n vei '-')" )
+export FIXKITCHENADD=$( echo "Adicionando repo otherdevices.xml " )
+export FIXKITCHENPURGE=$( echo "local_manifests  purged" )
+export FIXKITCHENWHICHADD=$( echo "Para qual repositorio adicionar?" )
+export FIXKITCHENWHICHPURGE=$( echo "Para qual repo adicionar esta pasta local_manifests ?" )
+export FIXKITCHENWHICHREPO=$( echo "Qual repositorio gostaria de Purge/Delete?" )
+export FIXKITCHENPURGEDELETE=$( echo "Purge ou Delete?" )
+export FIXKITCHENPURGEDELETEEXIT=$( echo "Purge = remover arquivos, baixar de origin
+Delete = deletar?!
+Digite exit para sair" )
+
+############ Coffee break ;)
+
 export FIXKITCHENPURGEDELETEREPO=$( echo "Purge or Delete all of the repositories?" )
 export FIXKITCHENPURGEDELETEKITCHEN=$( echo "Purge or Delete the Kitchen app?" )
 export FIXKITCHENREDEEMER=$( echo "Switching to Redeemer script.." )
